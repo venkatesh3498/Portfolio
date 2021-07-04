@@ -174,8 +174,8 @@ body{
         width: 100%;
         
     }
-    .webdev_des,.websec_des{
-        width: 100%;
+    .webdev_des,.websec_des,.project_des{
+        width: auto;
         padding: 3px;
         
         
