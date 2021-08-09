@@ -59,7 +59,7 @@ progress {
 
 
 progress::-webkit-progress-value {
-    background-color: #5d91d6
+    background-color: #5d91d6;
 }
 .icons{
     display: flex;
@@ -97,10 +97,12 @@ body{
 .webdev_des{
     width: 35%;
     border: 1px solid black;
-    box-shadow: 1px 1px 10px black;
+    box-shadow:  -20px -20px 60px #bebebe,
+             20px 20px 60px #ffffff;
     margin-bottom: 15px;
 }
 .webdev_des h2{
+    margin: 2%;
     text-align: center;
 }
 .webdev_des p{
@@ -128,23 +130,30 @@ body{
 .websec_des{
     width: 35%;
     border: 1px solid black;
-    box-shadow: 1px 1px 10px black;
+    box-shadow:  -20px -20px 60px #bebebe,
+             20px 20px 60px #ffffff;
     margin-bottom: 15px;
 }
 .websec_des h2{
+    margin: 2%;
     text-align: center;
 }
 .websec_des p{
     text-align: left;
     margin: 0 10%;
 }
+#projects{
+    display: flex;    
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .project_des{
-    width: 35%;
-
+    width: 40%;
     border: 1px solid black;
-    box-shadow: 1px 1px 10px #000000;
-    margin: 0 auto;
+    box-shadow:  -20px -20px 60px #bebebe,
+             20px 20px 60px #ffffff;
     margin-bottom: 15px;
+    margin: 0 auto 15px;
 }
 .project_des p{
     margin: 0 5%;
@@ -152,8 +161,8 @@ body{
 .project_des img{
     width: 96%;
     margin: 1% 2%;
-
 }
+
 @media screen and (max-width:450px){
     p{
         margin:0 18%;
